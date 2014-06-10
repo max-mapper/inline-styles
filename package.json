@@ -1,0 +1,13 @@
+{
+  "name": "inline-styles",
+  "version": "1.0.0",
+  "description": "replaces link tags with inline style tags + inlines CSS url() calls with data URIs",
+  "main": "index.js",
+  "bin": "cli.js",
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "cheerio": "cheeriojs/cheerio",
+    "imageinliner": "^0.2.2"
+  }
+}
