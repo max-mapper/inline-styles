@@ -3,11 +3,25 @@
   "version": "1.0.0",
   "description": "replaces link tags with inline style tags + inlines CSS url() calls with data URIs",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {
+    "inline-styles": "cli.js"
+  },
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {
-    "cheerio": "cheeriojs/cheerio",
+    "cheerio": "git://github.com/cheeriojs/cheerio",
     "imageinliner": "^0.2.2"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/inline-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/inline-styles/issues"
+  },
+  "homepage": "https://github.com/maxogden/inline-styles"
 }
