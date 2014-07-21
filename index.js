@@ -11,7 +11,6 @@ module.exports = function(html, base) {
   return new Buffer(dom.html())
   
   function injectStyles(dom) {
-    var styles = [];
     dom('link').each(function(idx, el) {
       el = dom(el)
       var href = el.attr('href')
